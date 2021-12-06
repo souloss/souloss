@@ -17,7 +17,7 @@
 ![witchc's github activity graph](https://activity-graph.herokuapp.com/graph?username=witchc&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true)
 
 <!--
-**Snile826/Snile826** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**wtichc/witchc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
