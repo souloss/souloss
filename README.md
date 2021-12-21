@@ -1,4 +1,8 @@
-### :zap: GitHub Stats
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+
+<!-- ### :zap: GitHub Stats
 
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=witchc&show_icons=true&hide_border=true&show_owner=true&title_color=FFFF00&theme=dark&layout=compact" /><br>
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=witchc&theme=radical&custom_title=streak-stats&hide_border=true&layout=compact" /><br>
@@ -14,7 +18,7 @@
 </a>
 </p>
 
-![witchc's github activity graph](https://activity-graph.herokuapp.com/graph?username=witchc&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true)
+![witchc's github activity graph](https://activity-graph.herokuapp.com/graph?username=witchc&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true) -->
 
 <!--
 **wtichc/witchc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
