@@ -5,13 +5,13 @@
 
 **🐱 My GitHub Data** 
 
-> 🏆 133 Contributions in the Year 2021
+> 🏆 136 Contributions in the Year 2021
  > 
 > 📦 6.5 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 35 Public Repositories 
+> 📜 36 Public Repositories 
  > 
 > 🔑 0 Private Repositories  
  > 
@@ -71,7 +71,7 @@ Vue                      1 repo              ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/witchc/witchc/master/charts/bar_graph.png) 
 
 
- Last Updated on 23/12/2021
+ Last Updated on 24/12/2021
 <!--END_SECTION:waka-->
 
 
