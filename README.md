@@ -7,7 +7,7 @@
 
 > 🏆 62 Contributions in the Year 2022
  > 
-> 📦 13.2 kB Used in GitHub's Storage 
+> 📦 12.1 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -71,7 +71,7 @@ Vue                      1 repo              ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/witchc/witchc/master/charts/bar_graph.png) 
 
 
- Last Updated on 18/02/2022 01:06:11 UTC
+ Last Updated on 21/02/2022 00:59:48 UTC
 <!--END_SECTION:waka-->
 
 
