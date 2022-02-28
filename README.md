@@ -68,7 +68,7 @@ Vue                      1 repo              ██░░░░░░░░░�
 
 **Timeline**
 
-![Chart not found](https://raw.githubusercontent.com/witchc/witchc/master/charts/bar_graph.png) 
+![Chart not found](https://raw.githubusercontent.com/souloss/souloss/master/charts/bar_graph.png) 
 
 
  Last Updated on 25/02/2022 01:08:07 UTC
@@ -77,24 +77,24 @@ Vue                      1 repo              ██░░░░░░░░░�
 
 <!-- ### :zap: GitHub Stats
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=witchc&show_icons=true&hide_border=true&show_owner=true&title_color=FFFF00&theme=dark&layout=compact" /><br>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=witchc&theme=radical&custom_title=streak-stats&hide_border=true&layout=compact" /><br>
-<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=witchc&theme=dracula" />
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=souloss&show_icons=true&hide_border=true&show_owner=true&title_color=FFFF00&theme=dark&layout=compact" /><br>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=souloss&theme=radical&custom_title=streak-stats&hide_border=true&layout=compact" /><br>
+<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=souloss&theme=dracula" />
 </p>
 
 ### :zap: Most used languages ❤️
 
-<p align="center">&nbsp;<img src= "https://github-readme-stats.vercel.app/api/top-langs/?username=witchc&layout=compact&hide=html&theme=dracula&hide_border=true"><br>
+<p align="center">&nbsp;<img src= "https://github-readme-stats.vercel.app/api/top-langs/?username=souloss&layout=compact&hide=html&theme=dracula&hide_border=true"><br>
 <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank">
-    <img src= "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=witchc&theme=dracula" alt=""><br>
-    <img src= "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=witchc&theme=dracula">
+    <img src= "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=souloss&theme=dracula" alt=""><br>
+    <img src= "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=souloss&theme=dracula">
 </a>
 </p>
 
-![witchc's github activity graph](https://activity-graph.herokuapp.com/graph?username=witchc&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true) -->
+![souloss's github activity graph](https://activity-graph.herokuapp.com/graph?username=souloss&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true) -->
 
 <!--
-**wtichc/witchc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**wtichc/souloss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
