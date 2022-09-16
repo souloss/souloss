@@ -17,6 +17,45 @@
  > 
 > 🔑 1 Private Repository 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning    42 commits     ██████░░░░░░░░░░░░░░░░░░░   24.28% 
+🌆 Daytime    41 commits     ██████░░░░░░░░░░░░░░░░░░░   23.7% 
+🌃 Evening    16 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.25% 
+🌙 Night      74 commits     ██████████░░░░░░░░░░░░░░░   42.77%
+
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday       17 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.83% 
+Tuesday      59 commits     ████████░░░░░░░░░░░░░░░░░   34.1% 
+Wednesday    21 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.14% 
+Thursday     11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.36% 
+Friday       39 commits     █████░░░░░░░░░░░░░░░░░░░░   22.54% 
+Saturday     5 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.89% 
+Sunday       21 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.14%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: Asia/Shanghai
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -34,7 +73,7 @@ Vue                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/souloss/souloss/master/charts/bar_graph.png) 
 
 
- Last Updated on 15/09/2022 02:12:25 UTC
+ Last Updated on 16/09/2022 02:13:43 UTC
 <!--END_SECTION:waka-->
 
 
