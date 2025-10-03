@@ -96,7 +96,7 @@ Vue                      1 repo              █░░░░░░░░░░�
 ![souloss's github activity graph](https://activity-graph.herokuapp.com/graph?username=souloss&theme=dracula&layout=compact&title_color=FF69B4&hide_border=true&area=true) -->
 
 <!--
-**wtichc/souloss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**souloss/souloss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
