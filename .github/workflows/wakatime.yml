@@ -32,6 +32,10 @@ jobs:
           SHOW_COMMIT: "True"
           SHOW_LANGUAGE: "True"
           SHOW_DAYS_OF_WEEK: "True"
+          "SHOW_OS": "True"
+          "SHOW_LANGUAGE_PER_REPO": "True"
+          "SHOW_SHORT_INFO": "True"
+          
 
       # 可选调试
       - name: Debug log
