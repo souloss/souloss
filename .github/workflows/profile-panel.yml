@@ -1,0 +1,84 @@
+name: Profile panel
+
+on:
+  schedule:
+    - cron: "17 17 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - ".github/workflows/profile-panel.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-panel
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Restore last published cards
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        continue-on-error: true
+        with:
+          ref: output
+          path: dist
+
+      - name: Prepare output directory
+        run: rm -rf dist/.git && mkdir -p dist
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Read panel accent color
+        id: theme
+        run: |
+          python - <<'PY'
+          import os
+          import tomllib
+          from pathlib import Path
+
+          settings = tomllib.loads(Path("config/profile.toml").read_text())
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(f"accent={settings['theme']['accent']}\n")
+              output.write(f"username={settings['profile']['github']}\n")
+          PY
+
+      - name: Render recent repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate.py dist
+
+      - name: Render contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ steps.theme.outputs.username }}
+          outputs: |
+            dist/snake-raw.svg?palette=github-dark&color_snake=${{ steps.theme.outputs.accent }}&color_dots=#161b22,#3b2a07,#7a5410,#c7861a,${{ steps.theme.outputs.accent }}
+
+      - name: Frame contribution snake
+        run: python scripts/frame_snake.py dist
+
+      - name: Validate SVG files
+        run: python scripts/check.py dist
+
+      - name: Publish cards
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "chore(render): refresh profile panel"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

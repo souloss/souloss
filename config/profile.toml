@@ -1,0 +1,20 @@
+[profile]
+github = "souloss"
+timezone = "Asia/Shanghai"
+
+[theme]
+background = "#090b0e"
+panel = "#0e1217"
+line = "#1d232c"
+text = "#ebe7df"
+muted = "#7d8796"
+accent = "#ffb224"
+positive = "#35d07f"
+negative = "#ff5d62"
+cyan = "#62c7ff"
+
+[cards.recent]
+limit = 5
+exclude_forks = true
+exclude_archived = true
+exclude_repositories = ["souloss"]
