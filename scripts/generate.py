@@ -19,6 +19,7 @@ def main():
     settings = tomllib.loads(CONFIG.read_text())
     profile = settings["profile"]
     recent = settings["cards"]["recent"]
+    languages = settings["cards"]["languages"]
     theme.configure(settings.get("theme", {}))
     output.mkdir(parents=True, exist_ok=True)
 
@@ -37,6 +38,14 @@ def main():
     svg = cards.recent_repositories(repos, max(1, int(recent.get("limit", 5))), refreshed)
     (output / "recent.svg").write_text(svg)
     print(f"wrote recent.svg ({len(svg) // 1024} KB)")
+
+    try:
+        totals = github_api.language_totals(repos)
+        svg = cards.language_distribution(totals, len(repos), max(1, int(languages.get("top", 6))), refreshed)
+        (output / "languages.svg").write_text(svg)
+        print(f"wrote languages.svg ({len(svg) // 1024} KB)")
+    except Exception as error:
+        print(f"language card unavailable; keeping previous render: {error}", file=sys.stderr)
 
 
 if __name__ == "__main__":

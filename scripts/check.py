@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 output = Path(sys.argv[1] if len(sys.argv) > 1 else "dist")
-required = ("recent.svg", "snake.svg")
+required = ("recent.svg", "languages.svg", "snake.svg")
 missing = [name for name in required if not (output / name).exists()]
 if missing:
     raise SystemExit("missing SVGs: " + ", ".join(missing))
